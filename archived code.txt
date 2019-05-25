@@ -1,0 +1,17 @@
+archived code>
+"""
+#checks if the necessary conditions are met
+#goes through the list of expressions and if the result is not a perfect square, returns false, 
+#if all conditions are met, returns true
+def passesconditions(x, y, z):
+    C = [x + y,
+            x - y,
+            x + z,
+            x - z,
+            y + z,
+            y - z]
+    for expression in C:
+        if not chkifsqr(expression):
+            return(False)  
+    return(True)
+"""
