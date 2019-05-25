@@ -1,0 +1,7 @@
+import math
+def checkSqrRoot (x):
+    if (int(math.sqrt(x)) == math.sqrt(x)):
+        return True
+    else:
+        return False 
+    
