@@ -5,6 +5,11 @@ run through numbers,
 check if conditions are met.
 return first that meets conditions
 ---------------------
-find set of numbers that are perfect squares - clara
+find set of numbers that are perfect squares
 create a list by iterating 
 ---------------------
+for each perfect sqaure find three numbers, x, y, z, satisfying
+x > y > z 
+...
+
+
