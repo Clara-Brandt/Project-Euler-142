@@ -1,0 +1,10 @@
+Approach to solution
+
+---------------------
+run through numbers,
+check if conditions are met.
+return first that meets conditions
+---------------------
+find set of numbers that are perfect squares - clara
+create a list by iterating 
+---------------------
