@@ -1,0 +1,18 @@
+import math
+def checkSqrRoot (x):
+    if (int(math.sqrt(x)) == math.sqrt(x)):
+        return True
+    else:
+        return False 
+    
+for x in range (6,50000):
+    if checkSqrRoot(x) == True:
+        for num in range (x+1):
+            a=(x-num)
+            b=(num)
+            if a > b and checkSqrRoot(a+b) == True and checkSqrRoot(a-b) == True:
+                for c in range (50000):
+                    if b > c and c > 0 and checkSqrRoot(b+c) == True and checkSqrRoot(b-c) == True:
+                        print (a, b, c)
+                        if checkSqrRoot(a+c) == True and checkSqrRoot(a-c) == True:
+                            print ("Got it!!!!" + str(a), str(b), str(c))
